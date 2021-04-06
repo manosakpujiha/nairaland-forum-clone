@@ -19,3 +19,46 @@
   --color-body2: #d4d5d7;
   --color-visited2: #059d8c;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  display: flex;
+  justify-content: center;
+
+  color: var(--color-headings);
+  background: var(--color-accent);
+}
+
+/* header section */
+
+.header {
+  width: 98vw;
+  height: 20vh;
+  background: var(--color-secondary);
+  margin: 1rem 2rem;
+  border-radius: 20px;
+}
+
+.logo {
+  font-family: Prostir Sans Display Heavy;
+}
+
+.logo_image {
+  width: 24.5rem;
+  height: 3.44rem;
+}
+
+.nav_list1 {
+  color: var(--color-headings);
+  display: inline-block;
+}
+
+.box-head {
+  width: 100%;
+  height: 10%;
+  background: var(--color-dark1);
+}
