@@ -1,0 +1,21 @@
+:root {
+  --color-primary: #e8ece0;
+  --color-secondary: #f6f6ec;
+  --color-accent: #fcfcf0;
+
+  --color-headings: #222276;
+  --color-body: #222072;
+  --color-visited: #401848;
+
+  --color-new: #175616;
+  --color-new2: #087c71;
+  --color-newvisited: #34b7f1;
+
+  --color-dark1: #2a2f32;
+  --color-dark2: #131c21;
+  --color-dark3: #262d31;
+
+  --color-headings2: #ffffff;
+  --color-body2: #d4d5d7;
+  --color-visited2: #059d8c;
+}
