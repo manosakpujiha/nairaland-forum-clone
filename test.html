@@ -4,17 +4,113 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Nairaland Forum Clone</title>
-    <style></style>
-  </head>
+    <title>Document</title>
 
+    <style>
+      :root {
+        --color-primary: #e8ece0;
+        --color-secondary: #f6f6ec;
+        --color-accent: #fcfcf0;
+        --color-outline: #e1e3d8;
+
+        --color-headings: #222276;
+        --color-body: #222072;
+        --color-visited: #401848;
+        --color-profile: #6d3025;
+      }
+
+      /* Typography */
+
+      html {
+        font-size: 62.5%;
+      }
+
+      .header {
+        background-color: var(--color-secondary);
+        border-radius: 1.5rem;
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        border: 1.2px solid var(--color-outline);
+        padding: 1rem 1rem;
+        text-align: center;
+        max-width: 1040px;
+        margin: 1rem auto;
+      }
+
+      .logo img {
+        width: 24.6rem;
+        height: 2.4rem;
+      }
+
+      .nav_list {
+        padding-left: 0;
+        margin: 0.2rem 0;
+      }
+
+      .nav_list a {
+        color: var(--color-body);
+        text-decoration: none;
+      }
+
+      .nav_list li {
+        display: inline;
+        font-size: 1.5rem;
+      }
+
+      .nav_list1 > li :first-of-type {
+        color: red;
+      }
+
+      .strokes a {
+        color: var(--color-headings);
+        text-decoration: none;
+      }
+
+      .strokes a:hover,
+      .nav_list a:hover {
+        text-decoration: underline;
+      }
+
+      .strokes a::after {
+        content: " /";
+      }
+      .search_button,
+      .search_input {
+        border-radius: 2rem;
+        border: 1.2px solid var(--color-outline);
+      }
+
+      .search_input {
+        width: 50%;
+        height: 2.3rem;
+      }
+
+      .search_button {
+        margin: 0 0.2rem;
+        background-color: white;
+        height: 2.8rem;
+        width: ;
+      }
+      .search {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .search_button:hover {
+        background-color: var(--color-primary);
+      }
+
+      .nav_list2 li span {
+        font-weight: bold;
+      }
+    </style>
+  </head>
   <body>
     <section class="header">
       <a
         class="logo"
         href="https://www.nairaland.com/"
+        class="g"
         title="Nairaland, the Nigerian Forum"
       >
         <img src="/images/nairaland-logo1.png" />

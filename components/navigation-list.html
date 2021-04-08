@@ -1,0 +1,50 @@
+<style>
+  :root {
+    --color-primary: #e8ece0;
+    --color-secondary: #f6f6ec;
+    --color-accent: #fcfcf0;
+    --color-outline: #e1e3d8;
+    --color-headings: #222276;
+    --color-body: #222072;
+    --color-visited: #401848;
+    --color-profile: #6d3025;
+  }
+  .nav_list a:first-child {
+    color: var(--color-profile);
+    text-decoration: none;
+  }
+  .nav_list li {
+    display: inline;
+  }
+  .strokes a {
+    color: var(--color-headings);
+    text-decoration: none;
+  }
+  .strokes a:hover,
+  .nav_list a:hover {
+    text-decoration: underline;
+  }
+  .strokes a::after {
+    content: " /";
+  }
+</style>
+
+<body>
+  <ul class="nav_list">
+    <li>Welcome,</li>
+    <li><a href="#">manos:</a>(m)</li>
+    <span class="strokes">
+      <li><a href="#">Edit Profile</a></li>
+      <li><a href="#">SH</a></li>
+      <li><a href="#">Followed Topics(57)</a></li>
+      <li><a href="#">FB</a></li>
+      <li><a href="#">L&S</a></li>
+      <li><a href="#">MT</a></li>
+      <li><a href="#">FG</a></li>
+      <li><a href="#">FS</a></li>
+      <li><a href="#">Trending</a></li>
+      <li><a href="#">Recent</a></li>
+    </span>
+    <li><a href="#">New</a></li>
+  </ul>
+</body>
